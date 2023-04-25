@@ -17,17 +17,17 @@ Following features are supported in the PayU Python web SDK:
 1. [Installation](#usage)
 2. [Getting Started](#getting-started)
 3. [Documentation for various Methods](#documentation-for-various-methods)
+
 ## Usage
+
 ```shell
 pip install payu_websdk
 ```
 ## Getting Started
 
-
-```shell
-
-client = payu_websdk.payUClient(<KEY>,<SALT>,<ENV>) // Need to set merchant key,salt and env ("TEST"/"LIVE")
-  
+```python
+import payu_websdk
+client = payu_websdk.Client(<KEY>,<SALT>,<ENV>) # Need to set merchant key,salt and env ("TEST"/"LIVE")
 ```
 
 
