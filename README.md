@@ -18,15 +18,15 @@ Following features are supported in the PayU Python web SDK:
 2. [Getting Started](#getting-started)
 3. [Documentation for various Methods](#documentation-for-various-methods)
 ## Usage
-
+```shell
 pip install payu_websdk
-
+```
 ## Getting Started
 
 
 ```shell
-client = payu_websdk.payUClient(<KEY>,<SALT>,<ENV>)
-// Need to set merchant key and salt
+
+client = payu_websdk.payUClient(<KEY>,<SALT>,<ENV>) // Need to set merchant key,salt and env ("TEST"/"LIVE")
   
 ```
 
@@ -36,12 +36,12 @@ client = payu_websdk.payUClient(<KEY>,<SALT>,<ENV>)
 ## Documentation for various Methods
 Method                                                                                                           |  Description
 |------------------------------------------------------------------------------------------------------------------| -------------
-| [**Verify_payment**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/varify_payment.md) ```[async]```          | Provides the details of a transaction
-| [**TransactionDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/Transaction_dtls.md) ```[async]```    | Provides the details of a transactions for a specfic timeperiod
-| [**ValidateVPA**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/ValidateUPI.md) ```[async]```                | Used to validate VPA of a user.
-| [**RefundTransaction**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/RefunsApi.md) ```[async]```            | Initiate refunds.
-| [**DowntimeCheck**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/DowntimeCheck.md) ```[async]```            | Check downtime through bin number.
-| [**InvoiceAPI**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/InvoiceAPIs.md) ```[async]```                 |  Used to create and expire invoice link.
-| [**EMI**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/EMIApi.md) ```[async]```                             |  Used for checking the card eligibilty for EMI through the bin number and Check Emi amount according to interest.
-| [**Check_isDomesticapi**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/check_isDomesticapi.md)```[async]``` | The BIN API or check_isDomestic API is used to detect whether a particular BIN number is international or domestic.
-| [**CheckoutDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/CheckoutDetails.md) ```[async]```        |  The get_checkout_details API is a generic API using which they can get information when you create the custom checkout-pages.
+| [**verifyPayment**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/varify_payment.md)          | Provides the details of a transaction
+| [**TransactionDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/Transaction_dtls.md)    | Provides the details of a transactions for a specfic timeperiod
+| [**ValidateVPA**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/ValidateUPI.md)               | Used to validate VPA of a user.
+| [**RefundTransaction**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/RefunsApi.md)            | Initiate refunds.
+| [**DowntimeCheck**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/DowntimeCheck.md)            | Check downtime through bin number.
+| [**InvoiceAPI**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/InvoiceAPIs.md)`                 |  Used to create and expire invoice link.
+| [**EMI**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/EMIApi.md)                             |  Used for checking the card eligibilty for EMI through the bin number and Check Emi amount according to interest.
+| [**CheckIsDomesticapi**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/check_isDomesticapi.md) | The BIN API or check_isDomestic API is used to detect whether a particular BIN number is international or domestic.
+| [**CheckoutDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/CheckoutDetails.md)       |  The get_checkout_details API is a generic API using which they can get information when you create the custom checkout-pages.
