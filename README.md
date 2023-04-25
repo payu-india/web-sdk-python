@@ -14,21 +14,18 @@ Following features are supported in the PayU Python web SDK:
   To get started with PayU, visit our [Developer Guide](https://devguide.payu.in/low-code-web-sdk/getting-started-low-code-web-sdk/register-for-a-test-merchant-account/)
 # Table of Contents
     
-1. [Usage](#usage)
+1. [Installation](#usage)
 2. [Getting Started](#getting-started)
 3. [Documentation for various Methods](#documentation-for-various-methods)
 ## Usage
-import (
-Payu "https://github.com/payu-india/web-sdk-python"
-)
+
+pip install payu_websdk
 
 ## Getting Started
 
 
 ```shell
-key =""
-salt =""
-client = payu_sdk.payUClient({"key":key,"salt":salt,"env":env})
+client = payu_websdk.payUClient(<KEY>,<SALT>,<ENV>)
 // Need to set merchant key and salt
   
 ```
