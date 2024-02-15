@@ -1,4 +1,4 @@
-[**<- back**](/web-sdk-python/README.md)
+[**<- back**](/README.md)
 
 # checkIsDomestic
 
