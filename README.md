@@ -36,7 +36,7 @@ client = payu_websdk.Client(<KEY>,<SALT>,<ENV>) # Need to set merchant key,salt 
 ## Documentation for various Methods
 Method                                                                                                           |  Description
 |------------------------------------------------------------------------------------------------------------------| -------------
-| [**verifyPayment**](/web-sdk-python/docs/verifyPayment.md)            | Provides the details of a transaction
+| [**verifyPayment**](docs/verifyPayment.md)            | Provides the details of a transaction
 | [**RefundTransaction**](/web-sdk-python/docs/RefundAPI.md)            | Initiate refunds.
 | [**BinAPI**](/web-sdk-python/docs)            | check the bin info.
 | [**EligibleBinsForEMI**](/web-sdk-python/docs/eligibleBinsForEMI.md)            | Used for checking the card eligibilty for EMI through the bin number..
