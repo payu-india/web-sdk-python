@@ -36,7 +36,7 @@ client = payu_websdk.Client(<KEY>,<SALT>,<ENV>) # Need to set merchant key,salt 
 ## Documentation for various Methods
 Method                                                                                                           |  Description
 |------------------------------------------------------------------------------------------------------------------| -------------
-| [**verifyPayment**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/varify_payment.md)          | Provides the details of a transaction
+| [**verifyPayment**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/varify_payment.md)          | Provides the details of a transaction.
 | [**TransactionDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/Transaction_dtls.md)    | Provides the details of a transactions for a specfic timeperiod
 | [**ValidateVPA**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/ValidateUPI.md)               | Used to validate VPA of a user.
 | [**RefundTransaction**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/RefunsApi.md)            | Initiate refunds.
