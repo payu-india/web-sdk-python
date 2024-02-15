@@ -36,12 +36,12 @@ client = payu_websdk.Client(<KEY>,<SALT>,<ENV>) # Need to set merchant key,salt 
 ## Documentation for various Methods
 Method                                                                                                           |  Description
 |------------------------------------------------------------------------------------------------------------------| -------------
-| [**verifyPayment**](docs/verifyPayment.md)            | Provides the details of a transaction
-| [**RefundTransaction**](/web-sdk-python/docs/RefundAPI.md)            | Initiate refunds.
-| [**BinAPI**](/web-sdk-python/docs)            | check the bin info.
-| [**EligibleBinsForEMI**](/web-sdk-python/docs/eligibleBinsForEMI.md)            | Used for checking the card eligibilty for EMI through the bin number..
-| [**EmiAmountAccordingToInterest**](/web-sdk-python/docs/getEmiAmountAccordingToInterest.md)            | Used to fetch interest accordign to Banks and tenure..
-| [**settlementAPI**](/web-sdk-python/docs/settlementDetailsApis.md)            | Used to fetch settlement details for a particular date..
-| [**getNetbankingStatus**](/web-sdk-python/docs/getNetbankingStatus.md)            | Check downtime status of PGs..
-| [**getIssuingBankStatus**](/web-sdk-python/docs/getIssuingBankStatus.md)            | Check downtime through bin number..
-| [**InvoiceAPIs**](/web-sdk-python/docs/InvoiceAPIs.md)            | Used to create email and SMS invoice ( Pay by link ).
+| [**verifyPayment**](/docs/verifyPayment.md)            | Provides the details of a transaction
+| [**RefundTransaction**](/docs/RefundAPI.md)            | Initiate refunds.
+| [**BinAPI**](/docs/BinAPI.md)            | check the bin info.
+| [**EligibleBinsForEMI**](/docs/eligibleBinsForEMI.md)            | Used for checking the card eligibilty for EMI through the bin number..
+| [**EmiAmountAccordingToInterest**](/docs/getEmiAmountAccordingToInterest.md)            | Used to fetch interest accordign to Banks and tenure..
+| [**settlementAPI**](/docs/settlementDetailsApis.md)            | Used to fetch settlement details for a particular date..
+| [**getNetbankingStatus**](/docs/getNetbankingStatus.md)            | Check downtime status of PGs..
+| [**getIssuingBankStatus**](/docs/getIssuingBankStatus.md)            | Check downtime through bin number..
+| [**InvoiceAPIs**](/docs/InvoiceAPIs.md)            | Used to create email and SMS invoice ( Pay by link ).
