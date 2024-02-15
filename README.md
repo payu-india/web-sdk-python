@@ -36,12 +36,12 @@ client = payu_websdk.Client(<KEY>,<SALT>,<ENV>) # Need to set merchant key,salt 
 ## Documentation for various Methods
 Method                                                                                                           |  Description
 |------------------------------------------------------------------------------------------------------------------| -------------
-| [**verifyPayment**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/varify_payment.md)          | Provides the details of a transaction.
-| [**TransactionDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/Transaction_dtls.md)    | Provides the details of a transactions for a specfic timeperiod
-| [**ValidateVPA**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/ValidateUPI.md)               | Used to validate VPA of a user.
-| [**RefundTransaction**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/RefunsApi.md)            | Initiate refunds.
-| [**DowntimeCheck**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/DowntimeCheck.md)            | Check downtime through bin number.
-| [**InvoiceAPI**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/InvoiceAPIs.md)`                 |  Used to create and expire invoice link.
-| [**EMI**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/EMIApi.md)                             |  Used for checking the card eligibilty for EMI through the bin number and Check Emi amount according to interest.
-| [**CheckIsDomesticapi**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/check_isDomesticapi.md) | The BIN API or check_isDomestic API is used to detect whether a particular BIN number is international or domestic.
-| [**CheckoutDetails**](https://github.com/payu-intrepos/web-sdk-java/blob/main/src/CheckoutDetails.md)       |  The get_checkout_details API is a generic API using which they can get information when you create the custom checkout-pages.
+| [**verifyPayment**](/web-sdk-python/docs/verifyPayment.md)            | Provides the details of a transaction
+| [**RefundTransaction**](/web-sdk-python/docs/RefundAPI.md)            | Initiate refunds.
+| [**BinAPI**](/web-sdk-python/docs)            | check the bin info.
+| [**EligibleBinsForEMI**](/web-sdk-python/docs/eligibleBinsForEMI.md)            | Used for checking the card eligibilty for EMI through the bin number..
+| [**EmiAmountAccordingToInterest**](/web-sdk-python/docs/getEmiAmountAccordingToInterest.md)            | Used to fetch interest accordign to Banks and tenure..
+| [**settlementAPI**](/web-sdk-python/docs/settlementDetailsApis.md)            | Used to fetch settlement details for a particular date..
+| [**getNetbankingStatus**](/web-sdk-python/docs/getNetbankingStatus.md)            | Check downtime status of PGs..
+| [**getIssuingBankStatus**](/web-sdk-python/docs/getIssuingBankStatus.md)            | Check downtime through bin number..
+| [**InvoiceAPIs**](/web-sdk-python/docs/InvoiceAPIs.md)            | Used to create email and SMS invoice ( Pay by link ).
